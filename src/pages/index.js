@@ -6,7 +6,7 @@ import NavigationHeader from '../components/navigation-header'
 const IndexPage = () => (
   <main>
     <ContactBar />
-    <NavigationHeader />
+    <NavigationHeader activeTab="Home" />
   </main>
 )
 
