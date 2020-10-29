@@ -1,13 +1,11 @@
 import React from "react"
-
-import NavigationHeader from '../components/navigation-header'
-import Footer from '../components/footer'
-
+ 
+import HeaderFooterLayout from "../layouts/headerFooter"
+ 
 const IndexPage = () => (
-  <main>
-    <NavigationHeader activeTab="Home" />
-    <Footer />
-  </main>
+  <HeaderFooterLayout activeTab="Home">
+    {/* Body components here! */}
+  </HeaderFooterLayout>
 )
-
+ 
 export default IndexPage
