@@ -1,6 +1,6 @@
 import React from 'react'
-import NavigationHeader from '../components/NavigationHeader'
-import Footer from '../components/Footer'
+import NavigationHeader from '../modules/navigation-header'
+import Footer from '../modules/footer'
  
 const HeaderFooterLayout = ({children, activeTab}) => (
   <>
